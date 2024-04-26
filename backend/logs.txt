@@ -1,0 +1,501 @@
+[03/31/2024, 15:54:20] [LOG] Server is running on port 4000
+[03/31/2024, 15:55:20] [LOG] Server is running on port 4000
+[03-31-2024[]15:55:24] [LOG] Server is running on port 4000
+[03/31/2024, 15:55:32] [LOG] Server is running on port 4000
+[03/31/2024, 15:55:45]Server is running on port 4000
+[03/31/2024, 15:55:47] Server is running on port 4000
+[03/31/2024, 15:56:44] Server is running on port 4000
+[03/31/2024, 21:58:17] Server is running on port 4000
+[04/01/2024, 20:58:37] Server is running on port 4000
+[04/02/2024, 20:41:54] Server is running on port 4000
+[04/06/2024, 10:04:32] Server is running on port 4000
+[04/06/2024, 11:10:25] Server is running on port 4000
+[04/11/2024, 16:47:37] Server is running on port 4000
+[04/11/2024, 16:47:47] Message sent with SID: SM3019d7f902877b978865cca908fadbac
+[04/11/2024, 16:48:26] Message sent with SID: SMaaa7a9a4260e1ec42df00452d6d17435
+[04/11/2024, 16:49:11] Message sent with SID: SM3e7af354cb99549e09031bbda85b96bc
+[04/11/2024, 16:50:15] Server is running on port 4000
+[04/11/2024, 16:50:16] Server is running on port 4000
+[04/11/2024, 16:50:47] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/11/2024, 16:50:59] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/11/2024, 16:51:26] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/11/2024, 16:52:43] Message sent with SID: SM7a7a8d35be8e1c5b3c44b46af8cb7f6f
+[04/11/2024, 16:53:27] Message sent with SID: SM3e6f3217306996d6e2e31824a8a0c4ba
+[04/11/2024, 17:00:14] Error sending message: The 'To' number whatsapp:+916235 288927 is not a valid phone number.
+[04/11/2024, 17:00:27] Message sent with SID: SM8f5df51fa38598574415ad9edaacc36f
+[04/11/2024, 17:01:04] Message sent with SID: SM809c179a4604fe135df3145a18e55086
+[04/11/2024, 17:02:03] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/11/2024, 20:53:33] Server is running on port 4000
+[04/11/2024, 20:54:29] Message sent with SID: SMaed35f731048b2da5895ca7f16f58597
+[04/11/2024, 22:26:37] Message sent with SID: SM552821eb6ea29f91bdab145f64037704
+[04/11/2024, 22:27:46] Message sent with SID: SM57ed64b39382340dc4ce52202f88c989
+[04/13/2024, 20:48:50] Server is running on port 4000
+[04/13/2024, 21:22:54] Server is running on port 4000
+[04/13/2024, 23:03:48] Server is running on port 4000
+[04/14/2024, 20:50:31] Server is running on port 4000
+[04/15/2024, 20:10:28] Server is running on port 4000
+[04/15/2024, 23:29:16] Error sending message: A text message body or media urls must be specified.
+[04/17/2024, 22:05:32] Server is running on port 4000
+[04/20/2024, 11:33:56] Server is running on port 4000
+[04/20/2024, 12:38:56] Error sending message: A text message body or media urls must be specified.
+[04/20/2024, 16:53:49] Server is running on port 4000
+[04/20/2024, 20:53:55] Server is running on port 4000
+[04/21/2024, 24:06:36] Server is running on port 4000
+[04/21/2024, 09:58:15] Server is running on port 4000
+[04/21/2024, 12:05:26] Server is running on port 4000
+[04/21/2024, 16:52:32] Server is running on port 4000
+[04/21/2024, 21:09:24] Server is running on port 4000
+[04/22/2024, 10:27:49] Server is running on port 4000
+[04/22/2024, 13:03:51] Server is running on port 4000
+[04/22/2024, 16:09:10] Server is running on port 4000
+[04/22/2024, 22:38:29] Server is running on port 4000
+[04/23/2024, 24:05:02] Server is running on port 4000
+[04/23/2024, 09:31:27] Server is running on port 4000
+[04/23/2024, 10:52:09] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:52:25] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:53:20] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:54:33] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:55:02] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:55:17] Server is running on port 4000
+[04/23/2024, 10:55:21] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:55:29] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:55:41] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:57:33] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/23/2024, 10:58:01] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/23/2024, 10:58:10] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/23/2024, 10:59:30] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 10:59:49] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 11:02:04] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 12:24:24] Server is running on port 4000
+[04/23/2024, 12:25:05] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 13:32:59] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 13:33:17] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 13:34:08] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 13:34:13] Error sending message: A text message body or media urls must be specified.
+[04/23/2024, 13:34:19] Error sending message: The 'To' number whatsapp:undefined is not a valid phone number.
+[04/23/2024, 13:51:27] Server is running on port 4000
+[04/23/2024, 13:54:14] Message sent with SID: SM7021d996b821e056fee29f5585533ba9
+[04/23/2024, 13:54:44] Message sent with SID: SM4d8528bd75d92b7553560c3463aa8094
+[04/23/2024, 14:21:59] Message sent with SID: SM82e02bc64600be960ff93414b1b9fede
+[04/23/2024, 14:59:27] Message sent with SID: SMfaa9b7217dbf2dc826ea026136896e24
+[04/23/2024, 14:59:39] Message sent with SID: SM72d7d80ce4a4015fa4362bb6b94195b3
+[04/23/2024, 15:00:35] Message sent with SID: SMc4580ef7b595913e1416daccf7aec402
+[04/23/2024, 15:01:40] Message sent with SID: SM8d8a15ecf20f93959933409121d5d240
+[04/23/2024, 15:02:14] Message sent with SID: SMa57659aa982ec3b47413f5ecf4c9e9a9
+[04/23/2024, 15:03:03] Message sent with SID: SM57562691e53e8517ed2d21d75902f608
+[04/23/2024, 15:03:39] Error sending message: The 'To' number whatsapp: +9188480 83747 is not a valid phone number.
+[04/23/2024, 15:03:47] Error sending message: The 'To' number whatsapp: +918848083747 is not a valid phone number.
+[04/23/2024, 15:04:08] Message sent with SID: SM66d5123cedc33d231241062bf90777d3
+[04/23/2024, 16:22:04] Message sent with SID: SMcde180988bf8441522c27efc71cb0eec
+[04/23/2024, 16:22:47] Message sent with SID: SM8ff7fe97e288c1cf86584aa5f2296041
+[04/23/2024, 16:23:50] Message sent with SID: SM8868dd1090adc8f97cb340e62be4f439
+[04/23/2024, 16:29:05] Message sent with SID: SM1f2c39c365e0b51bb3d45be4048391f9
+[04/23/2024, 16:30:42] Message sent with SID: SM26120eb8440574c6e013e0364213edf0
+[04/23/2024, 16:33:02] Message sent with SID: SM0fd0858a794c2d4c19b7edda64ec5b48
+[04/23/2024, 16:36:35] Message sent with SID: SM1afe1f1c10c6e917d451e9c0e5a27d75
+[04/23/2024, 18:20:11] Server is running on port 4000
+[04/23/2024, 22:49:08] Server is running on port 4000
+[04/23/2024, 22:56:45] Error sending message: getaddrinfo ENOTFOUND api.twilio.com
+[04/23/2024, 22:57:05] Server is running on port 4000
+[04/23/2024, 22:57:08] Error sending message: getaddrinfo ENOTFOUND api.twilio.com
+[04/23/2024, 23:08:42] Message sent with SID: SM1937bb3be55de3194ae9b875ce04263f
+[04/23/2024, 23:09:41] Message sent with SID: SMc8bd056034f1fa7632497dbc1b56fd80
+[04/23/2024, 23:15:06] Message sent with SID: SM3add071c194a5dbfceb17ef614039ebe
+[04/23/2024, 23:18:38] Message sent with SID: SM20903ae490cf3f9140c8ed7abfd193f2
+[04/23/2024, 23:41:11] Message sent with SID: SM76455526fec611be94431f712e14f309
+[04/23/2024, 23:41:34] Message sent with SID: SM73caee5ffa381da4ddad013d8ae2e556
+[04/23/2024, 23:43:27] Message sent with SID: SM131e5db644d8bbd8e5a7fa25909682ef
+[04/23/2024, 23:44:30] Message sent with SID: SMef4421b25e1110655631447673a988f7
+[04/23/2024, 23:45:29] Message sent with SID: SM5db69c1d432cf43ff3154a16627c1bd1
+[04/23/2024, 23:45:58] Message sent with SID: SM598fa8192e7e48586d096373776fc7e1
+[04/23/2024, 23:46:27] Message sent with SID: SM81b9c8db6fb7b8c1ab496796a03f3935
+[04/23/2024, 23:47:02] Message sent with SID: SM62bbf3e24dfe9e2841533416f67cc666
+[04/23/2024, 23:47:25] Message sent with SID: SMd3f9b524d381746b18526d7984faf114
+[04/23/2024, 23:48:20] Message sent with SID: SM8b642013ac1552d5ade8d9ef07ac18cc
+[04/23/2024, 23:48:55] Message sent with SID: SMc08d39ab7451c5573a07c0fac5862194
+[04/23/2024, 23:50:11] Message sent with SID: SMd70e6595f43de409a0473e29b72e345f
+[04/23/2024, 23:50:42] Message sent with SID: SM0a1418f7c36570c462a2840630ee9d3f
+[04/23/2024, 23:51:06] Message sent with SID: SM58c215426550dfe42feba234800ea8d8
+[04/23/2024, 23:51:41] Message sent with SID: SM7a6c3229d51f9c5480f2db4bd2b31a6c
+[04/23/2024, 23:53:36] Message sent with SID: SM31b988bd452cf0de32174e868379956a
+[04/23/2024, 23:55:12] Message sent with SID: SM6892c7a0b5bf04e59565990ab942f43c
+[04/23/2024, 23:56:19] Message sent with SID: SM4a54cb1e357bc9fb62f147a51a682ded
+[04/23/2024, 23:58:00] Message sent with SID: SM5c37894f1d2de01ac8d3568b092e023c
+[04/24/2024, 24:04:39] Message sent with SID: SMd449a16c8d87085bbea2d285381c6c08
+[04/24/2024, 11:03:58] Server is running on port 4000
+[04/24/2024, 11:05:29] Message sent with SID: SM1e5c6932872c4234b12667f1df739d02
+[04/24/2024, 11:06:26] Message sent with SID: SMe88a0624c67cd6a867fb42d160388fbc
+[04/24/2024, 11:07:05] Message sent with SID: SMb50e2035b654442d9d27d3e3aa3a3306
+[04/24/2024, 11:08:40] Error sending message: A text message body or media urls must be specified.
+[04/24/2024, 11:08:54] Error sending message: A text message body or media urls must be specified.
+[04/24/2024, 11:09:07] Message sent with SID: SM5140836d84966b7f593a82c469132f54
+[04/24/2024, 11:14:20] Message sent with SID: SM6b1cc70cd8f889d2d9ee045e67677906
+[04/24/2024, 11:15:48] Message sent with SID: SM879747ac44ea5935d4865c599b80f76d
+[04/24/2024, 11:16:43] Message sent with SID: SM8ee17e40cb9c962e32e09cb00faba5f8
+[04/24/2024, 11:17:17] Message sent with SID: SM25ae9473aa184fc07339870f8fc749c9
+[04/24/2024, 11:25:09] Message sent with SID: SM98c79103c70b3d038da0908ce8c3f395
+[04/24/2024, 11:29:31] Error sending message: getaddrinfo ENOTFOUND api.twilio.com
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:22] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:23] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:23] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:23] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:23:23] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 12:25:04] Message sent with SID: SM28b9cdcc331a641f10d3ef74f2b60fbe
+[04/24/2024, 12:25:04] Message sent with SID: SMadfa40f2c08c7a473def38b798a43203
+[04/24/2024, 12:25:04] Message sent with SID: SMf8fdb0c24a63631547c84fccdb48a013
+[04/24/2024, 12:25:04] Message sent with SID: SM93ebd3c1e6962024c36bf3382d6cbe57
+[04/24/2024, 12:25:04] Message sent with SID: SMb8a5cb95b1ec6ac1059a34f8c041fc4b
+[04/24/2024, 12:25:04] Message sent with SID: SM72fea8ac01a6acfa5d4ff7aee1120afb
+[04/24/2024, 12:25:05] Message sent with SID: SM42621c04fb3d297f7f6739f64a133941
+[04/24/2024, 12:25:05] Message sent with SID: SMfa066b223267c2ccb04070ed8dc3bdd4
+[04/24/2024, 12:25:05] Message sent with SID: SM51c7564717ec51ddc50eb2440e85f47c
+[04/24/2024, 12:25:05] Message sent with SID: SM937140a1088e500cca16f23c5a553c9b
+[04/24/2024, 12:25:41] Message sent with SID: SM353cbb0b833b6dcc227124e6ac372358
+[04/24/2024, 12:25:42] Message sent with SID: SM7858ee898003d639244dedf30101dfd3
+[04/24/2024, 12:25:42] Message sent with SID: SMc196fda1fd6153dd464072b920c5fcae
+[04/24/2024, 12:25:42] Message sent with SID: SM90bf2d1cd39b4314d46c5f00bd422fbe
+[04/24/2024, 12:25:42] Message sent with SID: SMddfd1ca828825566333509122254d592
+[04/24/2024, 13:52:37] Server is running on port 4000
+[04/24/2024, 13:53:23] Message sent with SID: SMc77a91a7b457b9c76a734db1158fe4c4
+[04/24/2024, 13:53:23] Message sent with SID: SM10573ede4edcef58b4e6b63301939645
+[04/24/2024, 13:53:50] Message sent with SID: SMef069c1a71bda5ef86aa63346e310030
+[04/24/2024, 13:55:34] Message sent with SID: SMc0da84b7ca3795fd8d8fbba1e6730c7f
+[04/24/2024, 13:55:34] Message sent with SID: SM116960b038b834a2efa3790a9b221869
+[04/24/2024, 13:56:29] Message sent with SID: SMec8caabdcbb282955f735503d2c1ddac
+[04/24/2024, 13:56:56] Message sent with SID: SM4a4a1049ccc6987548b93067b2d364d9
+[04/24/2024, 13:57:33] Message sent with SID: SMc346d6a951cc6e376ea45f7b0685dce5
+[04/24/2024, 13:58:00] Message sent with SID: SMc29c8469cc3bf95e2155f4c9ca95e4df
+[04/24/2024, 13:58:05] Message sent with SID: SMe5c026b50588eadd3e541775a4ea9a18
+[04/24/2024, 13:58:34] Message sent with SID: SMc6b59db1e5b5c03dc1b5bf481d3b91a9
+[04/24/2024, 13:58:54] Message sent with SID: SM7e211fb996da3e4f51318044701711e8
+[04/24/2024, 13:59:09] Message sent with SID: SMd7e4e9fb904f404445835c130b383c07
+[04/24/2024, 13:59:47] Message sent with SID: SMb3c31d2bf373cfe8c5dce807dce2ec8f
+[04/24/2024, 14:00:03] Message sent with SID: SM24d06757f20d48167b3498a43167c9af
+[04/24/2024, 14:00:04] Message sent with SID: SMa368ae9cecd2f6e615805a3a4ebdec37
+[04/24/2024, 14:15:59] Message sent with SID: SMc3c0b1ed85b0666dbe63f548bb289167
+[04/24/2024, 14:15:59] Message sent with SID: SMa4db1a87b2c07744814e896eefea0367
+[04/24/2024, 14:17:54] Message sent with SID: SMb37ba48b508bae5662b7bd9e3b050b97
+[04/24/2024, 14:18:12] Message sent with SID: SM08c5b94a478cebd7cb85d46391583523
+[04/24/2024, 14:18:12] Message sent with SID: SM19a0f8d3c760491eb6b8b69150da1578
+[04/24/2024, 14:18:12] Message sent with SID: SM231c904d85ef6fa8656dec4220ca6066
+[04/24/2024, 14:18:12] Message sent with SID: SM071c6ba01462df5ffb10ee72994c2951
+[04/24/2024, 14:18:12] Message sent with SID: SMc451536d70c3699f4dd73d54cb49ada4
+[04/24/2024, 14:18:12] Message sent with SID: SM13f073546faa0f5738db1373dfbc5f76
+[04/24/2024, 14:18:13] Message sent with SID: SM74fde35ddd5836f8617472146b188032
+[04/24/2024, 14:18:13] Message sent with SID: SMed4ec68a43d7a340f7797f2aba7c8dbd
+[04/24/2024, 14:18:13] Message sent with SID: SMcd9aa3f2c890cc64a3d0575ed8a96dba
+[04/24/2024, 14:18:45] Message sent with SID: SM1c3221573f3fc8cc5aff002c41bac024
+[04/24/2024, 14:18:45] Message sent with SID: SM7fa6eb0b096354ce1091e1895a8dc8fb
+[04/24/2024, 14:18:45] Message sent with SID: SMdc853f5cb8c3b0d285f59389e5126460
+[04/24/2024, 14:18:45] Message sent with SID: SM41b2203aec01d61185ee44be9acec3c9
+[04/24/2024, 14:18:45] Message sent with SID: SM40c251d4f8c3e3daf45e30071bbf544f
+[04/24/2024, 14:18:45] Message sent with SID: SM4831eb55adc7479ab53492879bbc053d
+[04/24/2024, 14:18:45] Message sent with SID: SMb4a935517864db5ac7158b54fa25c431
+[04/24/2024, 14:18:46] Message sent with SID: SMc475aba2dfa6fb871586e3b303f26afb
+[04/24/2024, 14:18:46] Message sent with SID: SM3e7cd2306618953f5d74bcd2e23c1a0c
+[04/24/2024, 14:18:46] Message sent with SID: SMc8bd15443efe6900492e13b10c8761d7
+[04/24/2024, 14:20:52] Message sent with SID: SM273cabcfd7d0c58f60c872a374756786
+[04/24/2024, 14:20:52] Message sent with SID: SM94d9bfa563bd7057d696d7511b6d5647
+[04/24/2024, 14:20:52] Message sent with SID: SMde0bb7469591b8ffa73b28536c2c140e
+[04/24/2024, 14:20:52] Message sent with SID: SM3d9b20b0d59fd5ab7748ba23cf3d7998
+[04/24/2024, 14:20:52] Message sent with SID: SM5c4d23166d7595a31c6601fa549f2657
+[04/24/2024, 14:21:16] Message sent with SID: SM7d796ab63ce3ae6425113303646813b4
+[04/24/2024, 14:21:54] Message sent with SID: SMf155cf06c80ca78bbd650f994061ca3b
+[04/24/2024, 14:21:54] Message sent with SID: SMdf6dff49379c7389373f47599ae5634e
+[04/24/2024, 14:21:54] Message sent with SID: SMe59edd385808350d1aebf26104b33fa8
+[04/24/2024, 14:21:54] Message sent with SID: SM6b1ebd1448111b5e2f07ff2d6c261bf2
+[04/24/2024, 14:21:54] Message sent with SID: SM02ce6df63d3b44f35d0c58f6bd766c57
+[04/24/2024, 14:21:55] Message sent with SID: SM3a00f9c73c67bd0246f45dcadb0e1f86
+[04/24/2024, 14:21:55] Message sent with SID: SM89a181047dccb48cee38aeec3d145b90
+[04/24/2024, 14:21:55] Message sent with SID: SM22ce0c0e7d341796e2624eb25b14f2d4
+[04/24/2024, 14:21:55] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:55] Message sent with SID: SM056085d26b535c8d232557c70246202f
+[04/24/2024, 14:21:55] Message sent with SID: SM080cb0f85d261cf64349d736db42bb0c
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:56] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:21:57] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:22:45] Message sent with SID: SM8c19461af4119f61334d42c29f207dc2
+[04/24/2024, 14:23:19] Message sent with SID: SM93c66087309e6b874801a1eb743ab014
+[04/24/2024, 14:23:19] Message sent with SID: SMd6f1d2310850f05f93acdb23f87ee405
+[04/24/2024, 14:23:19] Message sent with SID: SMf10d530cc914b32130a769a18bc616ec
+[04/24/2024, 14:23:19] Message sent with SID: SM409ef7cf2a1078383b9532a9b207c69e
+[04/24/2024, 14:23:19] Message sent with SID: SM5da8644e817782998bf445004248d62d
+[04/24/2024, 14:23:19] Message sent with SID: SMdf43100639d48fdb9bb215a048865928
+[04/24/2024, 14:23:19] Message sent with SID: SM818d2a7b165850ec63d0ce84035736d4
+[04/24/2024, 14:23:19] Message sent with SID: SM5afcb2c0052be5dac4b3b7e39dcc2e67
+[04/24/2024, 14:23:19] Message sent with SID: SM2e1bd45ea78918debcabfb5684c2aabc
+[04/24/2024, 14:23:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:20] Message sent with SID: SM85467d242b0f66881b5dfb75c57e59fb
+[04/24/2024, 14:23:20] Message sent with SID: SMfa59a911b8624f99d835eaa97e2b9224
+[04/24/2024, 14:23:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:21] Message sent with SID: SMea147ce2c963b641da8e5d71ec3f6be8
+[04/24/2024, 14:23:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:23:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:07] Message sent with SID: SM61143a1486789ef3be2598c8126a7678
+[04/24/2024, 14:24:07] Message sent with SID: SMb86f8add3abcb6c2935270ca2953ebff
+[04/24/2024, 14:24:07] Message sent with SID: SM56c68a0bd0b7de33c29b0a16a3c4f8a0
+[04/24/2024, 14:24:07] Message sent with SID: SM28a400c3d4c476f1c9e3214f020f5aa8
+[04/24/2024, 14:24:07] Message sent with SID: SMf5b2704dcfdedb47d0c44badced9cc1f
+[04/24/2024, 14:24:07] Message sent with SID: SMa8ca7e6ae3dd53774a1f1b5874509d59
+[04/24/2024, 14:24:08] Message sent with SID: SM2873d2d9a854f0b96dc2309f879fdbb1
+[04/24/2024, 14:24:08] Message sent with SID: SM18b0e8109c25d7b0c9544d12a23090bc
+[04/24/2024, 14:24:08] Message sent with SID: SM2c174b37b3cb52673ad4dc9c9cec11ac
+[04/24/2024, 14:24:08] Message sent with SID: SM84abac286b5555e8e678161a6db3ea73
+[04/24/2024, 14:24:08] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:08] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:09] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:10] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:10] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:10] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:24:10] Message sent with SID: SMfac68287b5e6daeddfa21b698b728ebb
+[04/24/2024, 14:24:11] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/24/2024, 14:25:15] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:25:15] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:25:38] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:25:40] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:25:51] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:25:54] Message sent with SID: SM1e4295b6d5f35d9891118bca2e7da932
+[04/24/2024, 14:26:19] Message sent with SID: SMf55d9d1193dfd3f2a90ccb21a1ded6e0
+[04/24/2024, 14:26:19] Message sent with SID: SM81613aafc4a542413fdbf08384826034
+[04/24/2024, 14:26:19] Message sent with SID: SMa1f3e0c584819c17dd9a0d8fecc975f6
+[04/24/2024, 14:26:19] Message sent with SID: SM7c4361acd3ce4078d6f19c902ed74d04
+[04/24/2024, 14:26:19] Message sent with SID: SM380f6e0a0cf3cc9d090b1156cd2db868
+[04/24/2024, 14:26:20] Message sent with SID: SMe71a319b037e0ac94b58375e493c7d23
+[04/24/2024, 14:26:20] Message sent with SID: SM744397511e214091189f249f7dbd2d3c
+[04/24/2024, 14:26:20] Message sent with SID: SM1c3cb64a017a1847ede7c7913fad2867
+[04/24/2024, 14:26:21] Message sent with SID: SM53307f36d1c291d0f9281e0dcc1a25c1
+[04/24/2024, 14:26:21] Message sent with SID: SMe83a7b8f97dc64e02531617f9ba0b251
+[04/24/2024, 14:26:21] Message sent with SID: SMf2aeb12571ce4a3570a72b406c2cdd56
+[04/24/2024, 14:28:05] Message sent with SID: SM5acfadc9e3cc62fec9242a162c13eff6
+[04/24/2024, 14:28:37] Error sending message: The 'To' number whatsapp: is not a valid phone number.
+[04/24/2024, 14:28:40] Error sending message: The 'To' number +91 is not a valid phone number.
+[04/24/2024, 14:28:47] Message sent with SID: SMe60baa11a3ff27d095dd4c08e0257192
+[04/24/2024, 14:32:49] Message sent with SID: SMdea92a5dfe7e7645fa7a1af6ebcacda6
+[04/24/2024, 14:32:51] Message sent with SID: SM63eafc52d85c6ae57ca4b92ad0d81763
+[04/24/2024, 14:33:34] Message sent with SID: SMe77dad5e5ded3a0808ddc88b1cf45a5b
+[04/24/2024, 14:33:35] Message sent with SID: SM5088e8694c21e9b96f22199af3764d9a
+[04/24/2024, 14:33:38] Message sent with SID: SM83d2ab9b609097188a94052f6cf5aa5b
+[04/24/2024, 14:34:04] Message sent with SID: SM72690662712205c4e96cbb1e32c42b8f
+[04/24/2024, 14:34:07] Message sent with SID: SM1653a7d5f26c91cdc0c1212f0e9c7a7c
+[04/24/2024, 14:34:35] Message sent with SID: SMc07ccbebc860a6c125e39e68391b3cdb
+[04/24/2024, 14:37:02] Message sent with SID: SM59c130991f4b1f96b586e0ffdb9cd5c4
+[04/24/2024, 14:44:46] Message sent with SID: SM081190bedb80d66f295089c6aaf10f93
+[04/24/2024, 14:44:46] Message sent with SID: SMddcb72656d97c29c050404c56e897e66
+[04/24/2024, 14:47:46] Server is running on port 4000
+[04/24/2024, 14:48:00] Message sent with SID: SMf76173583d5a6e5d2542d289b652ee0c
+[04/24/2024, 14:48:00] Message sent with SID: SM3d8f2c32e5062cdf814fe30baa426cf5
+[04/24/2024, 15:12:41] Message sent with SID: SM4ddcfa7c6c31aafe36e5156468ff5fd6
+[04/24/2024, 15:12:41] Message sent with SID: SM3747cd44ca89dd04ed5d88bfd4704a00
+[04/24/2024, 15:18:40] Message sent with SID: SMcca503fd26e4aaf8198f8d8cee5d34ef
+[04/24/2024, 15:19:39] Message sent with SID: SM700f694ce66a4bd0a43e1bf2fa68c2f6
+[04/24/2024, 15:19:40] Message sent with SID: SMfb02d81c0ad8c5aece02072eecc5ea2b
+[04/24/2024, 15:22:57] Message sent with SID: SMe9f6af4705fdf4613a3f3f2f96cdabb6
+[04/24/2024, 15:22:58] Message sent with SID: SM2d5a46c9db3055b9b55f44e7dd90ca88
+[04/24/2024, 15:23:29] Message sent with SID: SM94f60ba79149138de81b8e2cc61721e0
+[04/24/2024, 15:24:53] Message sent with SID: SM01c542a5275c32e55d627e37051ac560
+[04/24/2024, 15:25:16] Message sent with SID: SMba2843e3a9d2e85de7d48effa4924eb3
+[04/24/2024, 15:25:22] Message sent with SID: SM8460fc423baf4889ec8d0227b499386c
+[04/24/2024, 15:25:38] Message sent with SID: SM6f8f45e3b7263c13522386a2e371685f
+[04/24/2024, 15:26:31] Message sent with SID: SMbad8a82514f28c90f0aec09133b35460
+[04/24/2024, 15:26:47] Message sent with SID: SMa99550498a82207ff316f0c6ed421d68
+[04/24/2024, 15:26:48] Message sent with SID: SM1d42192df1f4f5e1e7c6c6b9c714d9e5
+[04/24/2024, 15:28:02] Message sent with SID: SMbcd6255b0b422b6efd184792d9de5ad9
+[04/24/2024, 15:28:27] Message sent with SID: SM6b6d0d0e9f41b9714bdfe33ab7d81e57
+[04/24/2024, 15:28:36] Message sent with SID: SM8467868e0e3542d2f60321bfd60b8ebf
+[04/24/2024, 15:28:53] Message sent with SID: SM000746bc8d0cf86338a1b91f72a1288f
+[04/24/2024, 20:48:24] Server is running on port 4000
+[04/24/2024, 20:54:06] Server is running on port 4000
+[04/24/2024, 21:05:31] Server is running on port 4000
+[04/24/2024, 23:22:55] Server is running on port 4000
+[04/25/2024, 10:19:42] Server is running on port 4000
+[04/25/2024, 10:32:25] Server is running on port 4000
+[04/25/2024, 11:57:59] Message sent with SID: SMecd7c68fa79f5eaf984b119eb205985e
+[04/25/2024, 12:21:51] Message sent with SID: SMfc5c763bd655de19bd3208d0a171cbfc
+[04/25/2024, 12:23:17] Message sent with SID: SM29755d9c409811621d83c32f26fd981a
+[04/25/2024, 12:23:17] Message sent with SID: SM1fe59c333d7059ecfb974064c98b92ae
+[04/25/2024, 12:23:17] Message sent with SID: SMd70c5aa9d40e723568779007dad5fad1
+[04/25/2024, 12:23:18] Message sent with SID: SM85f789cb58813a6b4c4345aee9d1f543
+[04/25/2024, 12:23:18] Message sent with SID: SMd2a28ef627abede525342507f5f32b41
+[04/25/2024, 13:49:22] Message sent with SID: SMc782105ab202d5246d0c3b9bde59b82c
+[04/25/2024, 13:49:22] Message sent with SID: SMe4858aeeb5234cafa5bceb5a562d61ec
+[04/25/2024, 13:49:23] Message sent with SID: SM06a8cee5ad2ed0726632744c90761784
+[04/25/2024, 13:49:23] Message sent with SID: SM0ae7cd9d8bfe8499f6a09bba1c8efcdd
+[04/25/2024, 13:49:23] Message sent with SID: SM9a91b3d6c1f465de92607c61ad6a271a
+[04/25/2024, 13:49:23] Message sent with SID: SMa045de1110455d2e15f59978ee688061
+[04/25/2024, 13:49:24] Message sent with SID: SM60a6f18fe57d0c645348c3868e2bc790
+[04/25/2024, 13:49:24] Message sent with SID: SMc4a5f77a2e0516d34fac6629ffdeb27e
+[04/25/2024, 13:49:24] Message sent with SID: SMd08a279278b36a36e9ff8a3ee6f70c36
+[04/25/2024, 13:49:24] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:24] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:25] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:25] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:25] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:25] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:26] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:26] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:26] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:26] Message sent with SID: SM58ebc6fac5bd04e8b17fbfd9c50ec423
+[04/25/2024, 13:49:26] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:26] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:27] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:28] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:28] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:29] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 13:49:30] Message sent with SID: SM33a499610d0927c67be275d8a69380ec
+[04/25/2024, 14:18:17] Message sent with SID: SMc33066f2c5511a1d361b6bd9fa58f250
+[04/25/2024, 14:18:17] Message sent with SID: SM546905df48ed00b6a75f22b2fd91543a
+[04/25/2024, 14:18:17] Message sent with SID: SMd6268e2d13e3a7cb0520fd2264c01c08
+[04/25/2024, 14:18:17] Message sent with SID: SM51b967b9266b0f06b86e1c6a409d8e6f
+[04/25/2024, 14:18:17] Message sent with SID: SM4c300a38ad27673c886eebc66dd08b9b
+[04/25/2024, 14:18:17] Message sent with SID: SM6b8134bb5494835eeddc1857a8b95c4c
+[04/25/2024, 14:18:18] Message sent with SID: SM601a92f03f3b8740738d5484f0267f4c
+[04/25/2024, 14:18:18] Message sent with SID: SM9c801faac758d778383604a5ce319a74
+[04/25/2024, 14:18:31] Message sent with SID: SM8136667719678f3fe0bafa678506eb2c
+[04/25/2024, 14:18:31] Message sent with SID: SM6daa2cb51d3d03550a836f95821e9d5d
+[04/25/2024, 14:18:31] Message sent with SID: SM6596ac7831d16076eb9ea548d96ad234
+[04/25/2024, 14:18:32] Message sent with SID: SM833bc36b4efb3a47de2a7e8a765ae795
+[04/25/2024, 14:18:32] Message sent with SID: SMdb989f3327dc697a9d5aaa77587906c6
+[04/25/2024, 14:18:32] Message sent with SID: SMe8c23e860dd6fc4355bd78593f782a69
+[04/25/2024, 14:18:32] Message sent with SID: SMeb65742515db52a72dcb1ada5aded423
+[04/25/2024, 14:18:32] Message sent with SID: SM29696288e9e59005f8c05f218fa0fb92
+[04/25/2024, 14:18:32] Message sent with SID: SMb3812233474ae27075e340ada13776d1
+[04/25/2024, 14:18:33] Message sent with SID: SMcd6cef7f45474091a131bcc8f8b260bc
+[04/25/2024, 14:18:33] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:33] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:33] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:33] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:33] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:34] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:35] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:18:36] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:17] Message sent with SID: SM02d75e3983dbab7a66cd1c50d865c838
+[04/25/2024, 14:20:17] Message sent with SID: SM034572472d5303cda3641a21572c10b5
+[04/25/2024, 14:20:17] Message sent with SID: SM058c2f032ed13f9d7ddf861ea10f4787
+[04/25/2024, 14:20:17] Message sent with SID: SMf8c8bce6c3338a7a48fa484b7d86a6aa
+[04/25/2024, 14:20:17] Message sent with SID: SMfdc303ea0efbb1d6b88d5b4f21bd1475
+[04/25/2024, 14:20:17] Message sent with SID: SM682607dd63d492bdcaca4eda1334d8b5
+[04/25/2024, 14:20:18] Message sent with SID: SMadaae57a9cc9ba92a004612aed14f80d
+[04/25/2024, 14:20:18] Message sent with SID: SM1ca5220e0d31ae9f6acd38bfe9680107
+[04/25/2024, 14:20:18] Message sent with SID: SM0dde906145cec7afe7dbcd58f739a806
+[04/25/2024, 14:20:18] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:18] Message sent with SID: SM3e46ce52b4066b1398df1e635fab754f
+[04/25/2024, 14:20:18] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:19] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:19] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:19] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:19] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:20] Message sent with SID: SM312e37b65d148df14cf5bdb3568f4978
+[04/25/2024, 14:20:20] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:21] Message sent with SID: SM15622e92ca1d1a3808ce25a7f8598e9d
+[04/25/2024, 14:20:21] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:22] Message sent with SID: SMed5d7627c01d7a9770ea755a4a36f4e4
+[04/25/2024, 14:20:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:22] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:23] Error sending message: Account AC1feaa08768440ee10733bf0e3b9ceb3c exceeded the 1 rps rate limit
+[04/25/2024, 14:20:23] Message sent with SID: SM18e5963c7ed1ea4b2c76e626c21397cf
+[04/25/2024, 14:20:33] Message sent with SID: SM040988081d3779c79ce58b66e4b44c71
+[04/25/2024, 14:20:34] Message sent with SID: SMdcce57f63ecc40a6c5cff4f31ccf87d4
+[04/25/2024, 14:20:34] Message sent with SID: SM6916403b9d349e46888f6ea1bb9c3094
+[04/25/2024, 14:20:34] Message sent with SID: SMef2271d8cd7bbb3f0d443c43bde62dc2
+[04/25/2024, 14:20:34] Message sent with SID: SM82ec5a7dec3b84290f82b4b087f237bb
+[04/25/2024, 14:20:34] Message sent with SID: SMb46a1f157a7a00384ad6068fdf0223b9
+[04/25/2024, 14:20:35] Message sent with SID: SM133441dab25f14b6cd5bc52a624de651
+[04/25/2024, 14:21:17] Message sent with SID: SMd802e784e2338bca979e18abb5ce842d
+[04/25/2024, 14:21:17] Message sent with SID: SM408cc12b4d5b2ff8ae23d73d3f9a4cc0
+[04/25/2024, 14:21:17] Message sent with SID: SM14457f83ecc9086436c1e2ed5eaaef03
+[04/25/2024, 14:21:17] Message sent with SID: SM0ffebb459fdca4853c66e6e3e2892248
+[04/25/2024, 14:21:17] Message sent with SID: SM45027c1bfff83274c58b938aaf268b0b
+[04/25/2024, 14:21:17] Message sent with SID: SM65594b03f0c680fd5d1edd3b5aba747b
+[04/25/2024, 14:21:18] Message sent with SID: SM03d12605134a6b48a7123a2ad1199452
+[04/25/2024, 14:21:18] Message sent with SID: SM597e95f6eeb37134c31c20d77e7407dd
+[04/25/2024, 14:21:18] Message sent with SID: SM095795c2a562ce132a28b2f8b0d8ce05
+[04/25/2024, 14:21:18] Message sent with SID: SM157c533eb56ce25de0ba793771c2089c
+[04/25/2024, 20:45:11] Server is running on port 4000
+[04/25/2024, 20:45:45] Message sent with SID: SM035815df2ef9ea3e3b8ef5c1ac5f275e
+[04/25/2024, 20:45:45] Message sent with SID: SM53500b70728fdefd0e205a5c549c8dbd
+[04/25/2024, 20:47:18] Message sent with SID: SM7d6d0beb12d8d4421eca1a9633503d3b
+[04/25/2024, 20:48:30] Message sent with SID: SMfa1c54c49c89f7ce9e911035ab5a017d
+[04/25/2024, 20:48:30] Message sent with SID: SM1da716ace1ecb524854b80d3a3818c43
+[04/25/2024, 20:48:30] Message sent with SID: SMcd19f7d171288ceb0a6f7606f713c303
+[04/25/2024, 20:48:30] Message sent with SID: SM639f9aaead214cffd2421311c27e1f63
+[04/25/2024, 20:48:30] Message sent with SID: SMccb35b7217b1ed31e2b7f05ba0bd7e18
+[04/26/2024, 10:31:28] Server is running on port 4000
+[04/26/2024, 10:32:02] Message sent with SID: SMf599ac62bf8b9894ab72aba1d29d14ea
+[04/26/2024, 10:32:02] Message sent with SID: SM9abf8d1bf3e59642cabe15bd9b027c65
+[04/26/2024, 10:42:43] Server is running on port 4000
+[04/26/2024, 10:50:49] Server is running on port 4000
+[04/26/2024, 10:51:17] Message sent with SID: SMd4133b8b8fadb85350ac4445ee4d533d
+[04/26/2024, 10:51:36] Message sent with SID: SMbcac814eb3e0cb4dda0e2808189dad07
+[04/26/2024, 10:52:20] Message sent with SID: SM85e71f3a4ecd90841c2011cf5b8dbafc
+[04/26/2024, 10:52:20] Message sent with SID: SMeaa3e6dce9974168e2e029208aa33e0f
+[04/26/2024, 10:52:20] Message sent with SID: SMc2335a4321c882f7ede0d6b6de254ad5
+[04/26/2024, 10:52:20] Message sent with SID: SM567c9fa4affda3cb2ffb209e8868a844
+[04/26/2024, 10:52:20] Message sent with SID: SMaf66d4d4b4725347c60b8d95f17d1592
+[04/26/2024, 10:52:20] Message sent with SID: SM96ad04eded7537182047972ce85dec8e
+[04/26/2024, 10:52:20] Message sent with SID: SM44ad87ed2a7727e41834f95615003d92
+[04/26/2024, 11:00:01] Message sent with SID: SMd512df9d0567d65037c8eb93d9b8bd06
+[04/26/2024, 11:18:21] Message sent with SID: SMa2771a58e7297388f00d5cd2d8f1579c
+[04/26/2024, 11:19:53] Message sent with SID: SM367faaa9609207cb875498867ada130a
+[04/26/2024, 11:26:08] Server is running on port 4000
+[04/26/2024, 11:26:15] Message sent with SID: SM0a10fae017ed181ad9f469bb229bb1b8
+[04/26/2024, 11:27:14] Server is running on port 4000
+[04/26/2024, 11:27:21] Message sent with SID: SM189e8b6f51e575428c7018c2b3577ed2
+[04/26/2024, 11:29:17] Server is running on port 4000
+[04/26/2024, 11:29:53] Message sent with SID: SM6d6239b13c390b86640393a917e9be21
+[04/26/2024, 11:35:59] Message sent with SID: SMe46697aa4d5acbfa372256bf3c93c9ad
+[04/26/2024, 11:55:45] Server is running on port 4000
+[04/26/2024, 11:56:38] Message sent with SID: SM04ca86eda72172d7430402e67eaa1be0
