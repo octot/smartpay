@@ -8,7 +8,7 @@ const port = 4000;
 app.use(bodyParser.json());
 app.use(cors());
 const accountSid = 'AC1feaa08768440ee10733bf0e3b9ceb3c';
-const authToken = '5f8baec1f5371b66259771a4c32a0ccc';
+const authToken = 'c64aa4a9137580a251e8757455f02c2f';
 const client = twilio(accountSid, authToken);
 // const twilioNumber = '+12406509853';
 const twilioNumber = '+14155238886';
@@ -30,5 +30,5 @@ app.post('/send-whatsapp', (req, res) => {
     });
 });
 app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server is running on port from whatsappserver ${port}`);
 });

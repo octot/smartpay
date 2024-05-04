@@ -21,6 +21,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 const WhatsAppSender = ({ resultToWhatsapp }) => {
+  console.log("data of resultToWhatsapp ",resultToWhatsapp)
   const classes = useStyles();
   const to = '+918714596258'; 
   // const to = '+919567831387'; 
@@ -47,6 +48,7 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
     })
       .then(response => response.json())
       .then((data) => {
+        console.log("response from api data ",data)
         if (data.success) {
           alert("Success!!!");
           setStatus(data.message);
@@ -58,7 +60,7 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
       })
       .catch(error => {
         alert("Error!!!");
-        setStatus(`Error something went wrong : ${error.message}`);
+        setStatus(`Error from whtsappSender : ${error.message}`);
       });
   };
   useEffect(() => {
