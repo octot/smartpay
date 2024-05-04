@@ -1,19 +1,13 @@
 version: '3'
 services:
-  frontend:
+  app:
+    container_name: smartpay_app
     build:
       context: .
       dockerfile: Dockerfile
-    volumes:
-      - ./src:/usr/src/app/src
     ports:
+      - "3000:3000"
       - "4000:4000"
-  backend:
-    build:
-      context: .
-      dockerfile: Dockerfile
     volumes:
-      - ./backend:/usr/src/app/backend
-    command: nodemon WhatsAppserver.js
-    depends_on:
-      - frontend
+      - .:/usr/src/app
+    command: /bin/bash -c "npm start & cd backend && npx nodemon WhatsAppserver.js"

@@ -8,7 +8,7 @@ const port = 4000;
 app.use(bodyParser.json());
 app.use(cors());
 const accountSid = 'AC1feaa08768440ee10733bf0e3b9ceb3c';
-const authToken = 'c64aa4a9137580a251e8757455f02c2f';
+const authToken = 'cf3469eee2f1ae518661815ee7fd7f4e';
 const client = twilio(accountSid, authToken);
 // const twilioNumber = '+12406509853';
 const twilioNumber = '+14155238886';
