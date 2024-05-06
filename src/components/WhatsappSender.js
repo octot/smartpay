@@ -39,7 +39,7 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
     sendRequest();
   };
   const sendRequest = () => {
-    fetch('http://localhost:4000/send-whatsapp', { // Adjusted port to 4000
+    fetch('http://13.53.61.82:3000/send-whatsapp', { // Adjusted port to 4000
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
