@@ -1,3 +1,4 @@
+
 export function transformData(secondFilteredData) {
     try {
         console.log("transformData input ", secondFilteredData)
@@ -17,14 +18,16 @@ export function transformData(secondFilteredData) {
 
 export function filterRecords(tutorJsonData, transformedData) {
     try {
-        console.log(`filterRecords input : tutorJsonData: ${JSON.stringify(tutorJsonData)}, transformedData: ${JSON.stringify(transformedData)} \n`);
+        console.log(`filterRecords input : tutorJsonData: ${tutorJsonData.length}
+        transformedData: ${transformedData.length} \n`);
         const filteredTutorJsonData = {};
         const filteredTransformedData = [];
         Object.keys(tutorJsonData).forEach(tutorID => {
             transformedData.forEach(record => {
                 let numberPart = tutorID.split(':')[0].trim();
-                if (record.tutorID === numberPart) {
+                if (record.tutorID == numberPart) {
                     filteredTutorJsonData[tutorID] = tutorJsonData[tutorID];
+                    console.log("filterRecords filteredTutorJsonData ", filteredTutorJsonData)
                 }
             });
         });
@@ -32,13 +35,13 @@ export function filterRecords(tutorJsonData, transformedData) {
             if (Object.prototype.hasOwnProperty.call(filteredTutorJsonData, tutorID)) {
                 transformedData.forEach(record => {
                     let numberPartFilteredTutorJsonData = tutorID.split(':')[0].trim();
-                    if (record.tutorID === numberPartFilteredTutorJsonData) {
+                    let recordTutorIDString = (typeof record.tutorID === 'string') ? record.tutorID : String(record.tutorID);
+                    if (recordTutorIDString  === numberPartFilteredTutorJsonData) {
                         filteredTransformedData.push(record);
                     }
                 });
             }
         }
-        console.log(`filterRecords output: filteredTutorJsonData: ${JSON.stringify(filteredTutorJsonData)}, filteredTransformedData: ${JSON.stringify(filteredTransformedData)} \n`);
         return { filteredTutorJsonData, filteredTransformedData };
     } catch (error) {
         console.error("Error in filterRecords:", error);
@@ -79,13 +82,15 @@ export function sortAndRemoveDuplicates(filteredTransformedData, filteredTutorJs
 
 export function combineData(uniqueData, tutorTotalDuration) {
     try {
-        console.log(`combineData input: tutorTotalDuration: ${JSON.stringify(tutorTotalDuration)}, uniqueData: ${JSON.stringify(uniqueData)} \n`);
+
+        console.log(`combineData input: tutorTotalDuration: 
+        ${JSON.stringify(tutorTotalDuration)},
+         uniqueData: ${JSON.stringify(uniqueData)} \n`);
         const combinedData = [];
         uniqueData.forEach(record => {
             const tutorID = record.tutorID;
-            console.log("record ", record);
-            const tutorDurationObject = tutorTotalDuration.find(obj =>
-                Object.keys(obj)[0].split(" ")[0] === tutorID);
+            const tutorDurationObject = tutorTotalDuration.
+            find(obj =>Object.keys(obj)[0].split(" ")[0] == tutorID);
             let totalDurationOfSessionTaken = [];
             let classesAttended = [];
             let parentPhoneNumber = [];
@@ -115,6 +120,7 @@ export function combineData(uniqueData, tutorTotalDuration) {
 }
 
 export function populateTutorJsonData(payRollFilteredData) {
+    console.log(`payRollFilteredData input  ${payRollFilteredData.length} \n`)
     try {
         const tutorJsonDataRecord = {};
         for (let i = 1; i < payRollFilteredData.length; i++) {
@@ -135,7 +141,9 @@ export function populateTutorJsonData(payRollFilteredData) {
                 'Remarks': entry[8]
             };
             tutorJsonDataRecord[key].push(obj);
+
         }
+        console.log("payRollFilteredData output", tutorJsonDataRecord)
         return tutorJsonDataRecord;
     } catch (error) {
         console.error("Error in populateTutorJsonData:", error);
