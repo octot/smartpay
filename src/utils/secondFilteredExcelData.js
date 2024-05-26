@@ -1,4 +1,5 @@
 const secondFilteredExcelData = (excelData2) => {
+  console.log("secondFilteredExcelData input ",excelData2)
   if (!excelData2) {
     return []; // Return an empty array if excelData2 is null or undefined
   }

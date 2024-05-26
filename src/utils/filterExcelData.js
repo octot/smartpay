@@ -18,7 +18,7 @@ const filterExcelData = (excelData, fromDate, toDate, payroll, filterCase) => {
       {
         const isWithinDateRange = (!fromDateObj || classDate >= fromDateObj) 
         && (!toDateObj || classDate <= toDateObj);
-        const isAfterPayroll = !payrollDateObj || classDate > payrollDateObj;
+        const isAfterPayroll = !payrollDateObj || classDate >= payrollDateObj;
         return  isWithinDateRange && isAfterPayroll;
       }
       return null;
@@ -37,7 +37,7 @@ const filterExcelData = (excelData, fromDate, toDate, payroll, filterCase) => {
       const payrollDateObj = new Date(payroll);
       if(fromDateObj!=null && toDateObj!=null && payrollDateObj!=null)
       {
-      const IsOldData = classDate < payrollDateObj;
+      const IsOldData = classDate <= payrollDateObj;
       const isAfterPayroll = fromDateObj <= submittedTime && toDateObj >= submittedTime;
       const result =  IsOldData && isAfterPayroll;
       return result;

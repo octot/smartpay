@@ -69,7 +69,11 @@ function ExcelReader() {
     const secondFilteredData = secondFilteredExcelData(excelData2);
     const transformedData = transformData(secondFilteredData);
     const tutorJsonData = populateTutorJsonData(payRollFilteredData);
+    console.log("data from tutorJsonData Excelreader",tutorJsonData)
+    console.log("data from transformedData Excelreader",transformedData)
     const { filteredTutorJsonData, filteredTransformedData } = filterRecords(tutorJsonData, transformedData);
+    console.log("data from filteredTutorJsonData Excelreader",filteredTutorJsonData)
+    console.log("data from filteredTransformedData Excelreader",filteredTransformedData)
     const combinedAndSortedData = sortAndRemoveDuplicates(filteredTransformedData, filteredTutorJsonData);
     console.log("combinedAndSortedData :", combinedAndSortedData);
     const dropzoneStyles = {
@@ -176,7 +180,7 @@ function ExcelReader() {
                         const tutorId = classesAttended[0]["Tution ID and Tuttion Name"].split(" : ")[0];
                         const totalFees = tutionData.finalAmountToParent;
                         const totalDurationOfSessionTaken = tutionData.totalDurationOfSessionTaken;
-                        const toNewDate = new Date(new Date('2024-04-24').setDate(new Date('2024-04-24').getDate() + 5)).toLocaleDateString('en-GB');
+                        const toNewDate = new Date(new Date(toDate).setDate(new Date(toDate).getDate() + 5)).toLocaleDateString('en-GB');
                         console.log("toDate ", toNewDate)
                         var stringBuilder = '';
                         stringBuilder += `SMARTPOINT E-PAY\n`;

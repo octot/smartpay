@@ -1,10 +1,10 @@
-version: '3'
+version: '3' 
 services:
   app:
     container_name: smartpay_app
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile 
     ports:
       - "3000:3000"
       - "4000:4000"

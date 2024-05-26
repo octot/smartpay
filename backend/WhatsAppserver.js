@@ -1,4 +1,4 @@
-const console = require('./logger');
+// const console = require('./logger');
 const express = require('express');
 const bodyParser = require('body-parser');
 const twilio = require('twilio');

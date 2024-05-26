@@ -39,8 +39,9 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
     sendRequest();
   };
   const sendRequest = () => {
-    fetch('http://13.53.61.82:3000/send-whatsapp', { // Adjusted port to 4000
-      method: 'POST',
+    fetch('https://smartpay-1.onrender.com/send-whatsapp', { // Adjusted port to 4000
+    // fetch('http://localhost:4000/send-whatsapp', { // Adjusted port to 4000
+    method: 'POST',
       headers: {
         'Content-Type': 'application/json',
       },
@@ -50,11 +51,11 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
       .then((data) => {
         console.log("response from api data ",data)
         if (data.success) {
-          alert("Success!!!");
+          // alert("Success!!!");
           setStatus(data.message);
           setLastSentTime(Date.now()); // Update last sent time
         } else {
-          alert("Error!!!");
+          // alert("Error!!!");
           setStatus(`Error sending message "${data.message}`);
         }
       })
