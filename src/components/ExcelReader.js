@@ -62,18 +62,43 @@ function ExcelReader() {
     const handlePayrollChange = (event) => {
         setPayroll(event.target.value);
     };
+    function missedStudentRecords(combinedArray, fromDate) {
+        console.log("missedRecords output", combinedArray)
+        let fromDateObj = new Date(fromDate);
+        let status = '(missed)';
+        for (let i = 0; i < combinedArray.length; ++i) {
+            let eachStudentRecord = combinedArray[i]
+            console.log("eachStudentRecord", eachStudentRecord)
+            let sessionDateRecords = new Date(eachStudentRecord[3])
+            console.log("sessionDateRecords", sessionDateRecords)
+            if (sessionDateRecords < fromDateObj) {
+                console.log("sessionDateRecords", true)
+                eachStudentRecord['status'] = status
+            }
+            else{
+                eachStudentRecord['status']=''
+            }
+        }
+        console.log("missedRecords output", combinedArray)
+        return combinedArray
+    }
     const filteredExcelData = filterExcelData(excelData, fromDate, toDate, payroll, 'case1');
     const payRollFilteredExcelData = filterExcelData(excelData, fromDate, toDate, payroll, 'case2');
+    console.log("data from filteredExcelData Excelreader", filteredExcelData)
+    console.log("data from payRollFilteredExcelData Excelreader", payRollFilteredExcelData)
+
     const combinedArray = [...filteredExcelData, ...payRollFilteredExcelData];
-    const payRollFilteredData = [...new Set(combinedArray)];
+    const missedRecordsArray = missedStudentRecords(combinedArray, fromDate);
+    console.log("data from missedRecordsArray Excelreader", missedRecordsArray)
+    const payRollFilteredData = [...new Set(missedRecordsArray)];
+    const tutorJsonData = populateTutorJsonData(payRollFilteredData);
+    console.log("data from tutorJsonData Excelreader", tutorJsonData)
     const secondFilteredData = secondFilteredExcelData(excelData2);
     const transformedData = transformData(secondFilteredData);
-    const tutorJsonData = populateTutorJsonData(payRollFilteredData);
-    console.log("data from tutorJsonData Excelreader",tutorJsonData)
-    console.log("data from transformedData Excelreader",transformedData)
+    console.log("data from transformedData Excelreader", transformedData)
     const { filteredTutorJsonData, filteredTransformedData } = filterRecords(tutorJsonData, transformedData);
-    console.log("data from filteredTutorJsonData Excelreader",filteredTutorJsonData)
-    console.log("data from filteredTransformedData Excelreader",filteredTransformedData)
+    console.log("data from filteredTutorJsonData Excelreader", filteredTutorJsonData)
+    console.log("data from filteredTransformedData Excelreader", filteredTransformedData)
     const combinedAndSortedData = sortAndRemoveDuplicates(filteredTransformedData, filteredTutorJsonData);
     console.log("combinedAndSortedData :", combinedAndSortedData);
     const dropzoneStyles = {
@@ -157,7 +182,7 @@ function ExcelReader() {
                         <ul style={{ listStyleType: "none", padding: 0 }}>
                             {tutorJsonData[key].map((item, index) => (
                                 <li key={`${key}-${index}`}>
-                                    {item['Session Date']} {item['Duration of Session taken']}
+                                    {item['Session Date']} {item['Duration of Session taken']} {item['status']}
                                 </li>
                             ))}
                         </ul>

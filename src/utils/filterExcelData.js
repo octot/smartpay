@@ -38,7 +38,11 @@ const filterExcelData = (excelData, fromDate, toDate, payroll, filterCase) => {
       if(fromDateObj!=null && toDateObj!=null && payrollDateObj!=null)
       {
       const IsOldData = classDate <= payrollDateObj;
-      const isAfterPayroll = fromDateObj <= submittedTime && toDateObj >= submittedTime;
+      const submittedTimeCompare=submittedTime.toDateString()
+      const toDateObjCompare=toDateObj.toDateString()
+      console.log("submittedTimeCompare ",submittedTimeCompare)
+      console.log("toDateObjCompare ",toDateObjCompare)
+      const isAfterPayroll = fromDateObj <= submittedTime && toDateObjCompare >= submittedTimeCompare;
       const result =  IsOldData && isAfterPayroll;
       return result;
       }

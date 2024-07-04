@@ -79,10 +79,8 @@ export function sortAndRemoveDuplicates(filteredTransformedData, filteredTutorJs
         throw error;
     }
 }
-
 export function combineData(uniqueData, tutorTotalDuration) {
     try {
-
         console.log(`combineData input: tutorTotalDuration: 
         ${JSON.stringify(tutorTotalDuration)},
          uniqueData: ${JSON.stringify(uniqueData)} \n`);
@@ -120,7 +118,7 @@ export function combineData(uniqueData, tutorTotalDuration) {
 }
 
 export function populateTutorJsonData(payRollFilteredData) {
-    console.log(`payRollFilteredData input  ${payRollFilteredData.length} \n`)
+    console.log(`payRollFilteredData input  ${payRollFilteredData} \n`)
     try {
         const tutorJsonDataRecord = {};
         for (let i = 1; i < payRollFilteredData.length; i++) {
@@ -138,10 +136,11 @@ export function populateTutorJsonData(payRollFilteredData) {
                 'Session End Time': entry[5],
                 'Duration of Session taken': entry[6],
                 'How do you rate your class Experience': entry[7],
-                'Remarks': entry[8]
+                'Remarks': entry[8],
+                'status':entry['status']
             };
             tutorJsonDataRecord[key].push(obj);
-
+            
         }
         console.log("payRollFilteredData output", tutorJsonDataRecord)
         return tutorJsonDataRecord;
