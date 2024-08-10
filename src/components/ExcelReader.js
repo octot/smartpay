@@ -75,8 +75,8 @@ function ExcelReader() {
                 console.log("sessionDateRecords", true)
                 eachStudentRecord['status'] = status
             }
-            else{
-                eachStudentRecord['status']=''
+            else {
+                eachStudentRecord['status'] = ''
             }
         }
         console.log("missedRecords output", combinedArray)
