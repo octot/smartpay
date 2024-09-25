@@ -1,21 +1,36 @@
-import React, { useState, useCallback } from 'react';
+import React, { useRef, useState, useEffect, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import * as XLSX from 'xlsx';
 import filterExcelData from '../utils/filterExcelData';
 import secondFilteredExcelData from '../utils/secondFilteredExcelData'
 import WhatsAppSender from './WhatsappSender';
 import './ExcelReader.css';
-import { transformData, filterRecords, sortAndRemoveDuplicates, populateTutorJsonData } from '../functions/functionsForSecondExcel';
+import { populateFilteredBasedOnIsRequired, transformData, filterRecords, sortAndRemoveDuplicates, populateTutorJsonData } from '../functions/functionsForSecondExcel';
 import TextField from '@mui/material/TextField';
 import Grid from '@mui/material/Grid';
-function ExcelReader() {
+import MissedData from './MissedData'
+import { Button } from '@mui/material';
+const ExcelReader = () => {
     const [excelData, setExcelData] = useState(null);
     const [excelData2, setExcelData2] = useState(null);
     const [fileName, setFileName] = useState('');
     const [fileName2, setFileName2] = useState('');
-    const [fromDate, setFromDate] = useState('');
-    const [toDate, setToDate] = useState('');
-    const [payroll, setPayroll] = useState('');
+    const [fromDate, setFromDate] = useState('2024-08-01');
+    const [toDate, setToDate] = useState('2024-08-31');
+    const [payroll, setPayroll] = useState('2024-08-31');
+    const [isPopupOpen, setIsPopupOpen] = useState(false);
+    const openPopup = () => {
+        setIsPopupOpen(true);
+    };
+    const closePopup = () => {
+        setIsPopupOpen(false);
+    };
+    const dropzoneStyles = {
+        border: '2px dashed #cccccc',
+        padding: '20px',
+        textAlign: 'center',
+        cursor: 'pointer',
+    };
     const onDrop = useCallback((acceptedFiles) => {
         const reader = new FileReader();
         const file = acceptedFiles[0];
@@ -48,7 +63,6 @@ function ExcelReader() {
         };
         reader.readAsArrayBuffer(file);
     }, []);
-
     const { getRootProps: getRootProps2, getInputProps: getInputProps2 } = useDropzone({
         accept: '.xlsx, .xls',
         onDrop: onDrop2,
@@ -86,27 +100,55 @@ function ExcelReader() {
     const payRollFilteredExcelData = filterExcelData(excelData, fromDate, toDate, payroll, 'case2');
     console.log("data from filteredExcelData Excelreader", filteredExcelData)
     console.log("data from payRollFilteredExcelData Excelreader", payRollFilteredExcelData)
-
     const combinedArray = [...filteredExcelData, ...payRollFilteredExcelData];
     const missedRecordsArray = missedStudentRecords(combinedArray, fromDate);
     console.log("data from missedRecordsArray Excelreader", missedRecordsArray)
     const payRollFilteredData = [...new Set(missedRecordsArray)];
     const tutorJsonData = populateTutorJsonData(payRollFilteredData);
-    console.log("data from tutorJsonData Excelreader", tutorJsonData)
+    const [copyTutorJsonData, setCopyTutorJsonData] = useState({});
+    const isManuallyUpdated = useRef(false);
+    useEffect(() => {
+        // console.log('tutorJsonData:', tutorJsonData);
+        if (!isManuallyUpdated.current && tutorJsonData && JSON.stringify(tutorJsonData) !== JSON.stringify(copyTutorJsonData)) {
+            setCopyTutorJsonData({ ...tutorJsonData });
+        }
+        console.log('copyTutorJsonData after useEffect', copyTutorJsonData);
+    }, [tutorJsonData]);
+    // console.log("data from tutorJsonData Excelreader", tutorJsonData)
+    // console.log("data from copyTutorJsonData Excelreader", copyTutorJsonData)
+    const filteredBasedOnIsRequired = populateFilteredBasedOnIsRequired(copyTutorJsonData)
+    console.log("data from filteredBasedOnIsRequired Excelreader", filteredBasedOnIsRequired)
+
     const secondFilteredData = secondFilteredExcelData(excelData2);
     const transformedData = transformData(secondFilteredData);
-    console.log("data from transformedData Excelreader", transformedData)
-    const { filteredTutorJsonData, filteredTransformedData } = filterRecords(tutorJsonData, transformedData);
+    // console.log("data from transformedData Excelreader", transformedData)
+    const { filteredTutorJsonData, filteredTransformedData } = filterRecords(filteredBasedOnIsRequired, transformedData);
     console.log("data from filteredTutorJsonData Excelreader", filteredTutorJsonData)
     console.log("data from filteredTransformedData Excelreader", filteredTransformedData)
     const combinedAndSortedData = sortAndRemoveDuplicates(filteredTransformedData, filteredTutorJsonData);
     console.log("combinedAndSortedData :", combinedAndSortedData);
-    const dropzoneStyles = {
-        border: '2px dashed #cccccc',
-        padding: '20px',
-        textAlign: 'center',
-        cursor: 'pointer',
+    const handleCheckboxChange = (key, index) => {
+        setCopyTutorJsonData((prevData) => {
+            // Create a deep copy of the previous state for the specific key (nested array)
+            const updatedData = { ...prevData };
+            // console.log('Previous data:', prevData);
+            // Deep copy the nested array to avoid mutating the original array
+            const updatedNestedArray = updatedData[key].map((item, itemIndex) => {
+                if (itemIndex === index) {
+                    // console.log(`Toggling isRequired for item at index ${index}`);
+                    return { ...item, isRequired: !item.isRequired };
+                }
+                return item;
+            });
+            // Replace the old nest ed array with the updated array
+            updatedData[key] = updatedNestedArray;
+            // console.log('Updated data:', updatedData);
+            isManuallyUpdated.current = true;
+            return updatedData; // Return the fully updated data to set the state
+
+        });
     };
+    console.log("copyTutorJsonData after handleCheckboxChange", copyTutorJsonData)
     return (
         <div>
             <h2 class="heading">Smart Report</h2>
@@ -175,15 +217,28 @@ function ExcelReader() {
                 {/* Display the uploaded file name */}
                 <p>{fileName ? `Uploaded File: ${fileName}` : 'Drag and drop an Excel file here, or click to select files (Timesheet Entry.xlsx)'}</p>
             </div>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(200px, 1fr))", gap: "10px", justifyContent: "center" }}>
-                {Object.keys(tutorJsonData).map(key => (
-                    <div key={key} style={{ border: "1px solid black", padding: "10px" }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '10px', justifyContent: 'center' }}>
+                {Object.keys(copyTutorJsonData).map((key, index) => (
+
+                    <div key={key} style={{ border: '1px solid black', padding: '10px' }}>
                         <h3>{key}</h3>
-                        <ul style={{ listStyleType: "none", padding: 0 }}>
-                            {tutorJsonData[key].map((item, index) => (
-                                <li key={`${key}-${index}`}>
-                                    {item['Session Date']} {item['Duration of Session taken']} {item['status']}
+                        <ul style={{ listStyleType: 'none', padding: 0 }}>
+
+                            {copyTutorJsonData[key].map((item, itemIndex) => (
+                                <li key={`${key}-${itemIndex}`} style={{ marginBottom: '10px' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center' }}>
+                                        <span>
+                                            {item['Session Date']} {item['Duration of Session taken']} {item['status']}
+                                        </span>
+                                        <input
+                                            type="checkbox"
+                                            checked={item.isRequired}
+                                            onChange={() => handleCheckboxChange(key, itemIndex)} // Pass key and index to handle checkbox change
+                                            style={{ marginLeft: '10px' }}
+                                        />
+                                    </div>
                                 </li>
+
                             ))}
                         </ul>
                     </div>
@@ -194,6 +249,19 @@ function ExcelReader() {
                 {/* Display the uploaded file name */}
                 <p>{fileName2 ? `Uploaded File: ${fileName2}` : 'Drag and drop an Excel file here, or click to select files (Tuitions started By HR.xlsx)'}</p>
             </div>
+            <Button className="open-missed-data" onClick={openPopup}>View OverView details</Button>
+            {
+                isPopupOpen && (
+                    <div>
+                        <div className="overlay" onClick={closePopup}></div>
+                        <div className="popup">
+                            <div className="popup-content">
+                                <Button className="close-button" onClick={closePopup}>Close</Button>
+                                <MissedData tutorJsonData={tutorJsonData} transformedData={transformedData} combinedAndSortedData={combinedAndSortedData} />
+                            </div>
+                        </div>
+                    </div>)
+            }
             <div>
                 <h2>Tution Details</h2>
                 <div className="tution-grid">
@@ -259,4 +327,5 @@ function ExcelReader() {
         </div>
     );
 }
+
 export default ExcelReader;

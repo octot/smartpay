@@ -1,0 +1,33 @@
+tutorJsonData={
+"key1":[{}{}{}],
+"key2":[]
+}
+
+tutorJsonData={
+    "key1":{
+            checked: true,
+            "key1":[{}{}{}],
+    }
+}
+{
+    "key2":{
+            checked: true,
+            "key2":[{}{}{}],
+    }
+}
+
+transformedData=[
+    {tutorId:11},
+    {tutorId:22},
+]
+  tutor1: {
+      checked: true,
+      sessions: [
+        {
+          "Session Date": "2024-09-18",
+          "Duration of Session taken": "60 mins",
+          status: "Completed",
+          isRequired: true,
+        },
+      ]
+  }

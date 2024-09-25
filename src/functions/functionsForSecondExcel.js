@@ -16,30 +16,32 @@ export function transformData(secondFilteredData) {
     }
 }
 
-export function filterRecords(tutorJsonData, transformedData) {
+export function filterRecords(filteredBasedOnIsRequired, transformedData) {
+    console.log("filteredBasedOnIsRequired input ", filteredBasedOnIsRequired)
+
     try {
-        console.log(`filterRecords input : tutorJsonData: ${tutorJsonData.length}
-        transformedData: ${transformedData.length} \n`);
         const filteredTutorJsonData = {};
         const filteredTransformedData = [];
-        Object.keys(tutorJsonData).forEach(tutorID => {
-            transformedData.forEach(record => {
-                let numberPart = tutorID.split(':')[0].trim();
-                if (record.tutorID == numberPart) {
-                    filteredTutorJsonData[tutorID] = tutorJsonData[tutorID];
-                    console.log("filterRecords filteredTutorJsonData ", filteredTutorJsonData)
-                }
-            });
-        });
-        for (const tutorID in filteredTutorJsonData) {
-            if (Object.prototype.hasOwnProperty.call(filteredTutorJsonData, tutorID)) {
+        if (filteredBasedOnIsRequired) {
+            Object.keys(filteredBasedOnIsRequired).forEach(tutorID => {
                 transformedData.forEach(record => {
-                    let numberPartFilteredTutorJsonData = tutorID.split(':')[0].trim();
-                    let recordTutorIDString = (typeof record.tutorID === 'string') ? record.tutorID : String(record.tutorID);
-                    if (recordTutorIDString  === numberPartFilteredTutorJsonData) {
-                        filteredTransformedData.push(record);
+                    let numberPart = tutorID.split(':')[0].trim();
+                    if (record.tutorID == numberPart) {
+                        filteredTutorJsonData[tutorID] = filteredBasedOnIsRequired[tutorID];
+                        console.log("filterRecords filteredTutorJsonData ", filteredTutorJsonData)
                     }
                 });
+            });
+            for (const tutorID in filteredTutorJsonData) {
+                if (Object.prototype.hasOwnProperty.call(filteredTutorJsonData, tutorID)) {
+                    transformedData.forEach(record => {
+                        let numberPartFilteredTutorJsonData = tutorID.split(':')[0].trim();
+                        let recordTutorIDString = (typeof record.tutorID === 'string') ? record.tutorID : String(record.tutorID);
+                        if (recordTutorIDString === numberPartFilteredTutorJsonData) {
+                            filteredTransformedData.push(record);
+                        }
+                    });
+                }
             }
         }
         return { filteredTutorJsonData, filteredTransformedData };
@@ -88,7 +90,7 @@ export function combineData(uniqueData, tutorTotalDuration) {
         uniqueData.forEach(record => {
             const tutorID = record.tutorID;
             const tutorDurationObject = tutorTotalDuration.
-            find(obj =>Object.keys(obj)[0].split(" ")[0] == tutorID);
+                find(obj => Object.keys(obj)[0].split(" ")[0] == tutorID);
             let totalDurationOfSessionTaken = [];
             let classesAttended = [];
             let parentPhoneNumber = [];
@@ -137,15 +139,35 @@ export function populateTutorJsonData(payRollFilteredData) {
                 'Duration of Session taken': entry[6],
                 'How do you rate your class Experience': entry[7],
                 'Remarks': entry[8],
-                'status':entry['status']
+                'status': entry['status'],
+                'isRequired': true
             };
             tutorJsonDataRecord[key].push(obj);
-            
+
         }
         console.log("payRollFilteredData output", tutorJsonDataRecord)
         return tutorJsonDataRecord;
     } catch (error) {
         console.error("Error in populateTutorJsonData:", error);
         throw error;
+    }
+}
+export function populateFilteredBasedOnIsRequired(copyTutorJsonData) {
+    console.log("populateFilteredBasedOnIsRequired input", copyTutorJsonData);
+    try {
+        // Filter the data where `isRequired` is true
+        const filteredData = Object.keys(copyTutorJsonData).reduce((acc, key) => {
+            const filteredItems = copyTutorJsonData[key].filter(item => item.isRequired === true);
+            if (filteredItems.length > 0) {
+                acc[key] = filteredItems; // Only add the key if there are filtered items
+            }
+            return acc;
+        }, {});
+
+        console.log("Filtered data based on isRequired", filteredData);
+        return filteredData;
+    } catch (error) {
+        console.error("Error in populateFilteredBasedOnIsRequired", error);
+        return {}; // Return an empty object in case of error
     }
 }
