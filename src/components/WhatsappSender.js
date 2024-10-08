@@ -44,8 +44,8 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
     sendRequest();
   };
   const sendRequest = () => {
-    // fetch('https://smartpay-1.onrender.com/send-whatsapp', { // Adjusted port to 4000
-    fetch("http://localhost:4000/send-whatsapp", {
+    fetch('https://smartpay-1.onrender.com/send-whatsapp', { // Adjusted port to 4000
+    // fetch("http://localhost:4000/send-whatsapp", {
       // Adjusted port to 4000
       method: "POST",
       headers: {

@@ -6,13 +6,13 @@ tutorJsonData={
 tutorJsonData={
     "key1":{
             checked: true,
-            "key1":[{}{}{}],
+            "sessions":[{}{}{}],
     }
 }
 {
     "key2":{
             checked: true,
-            "key2":[{}{}{}],
+            "sessions":[{}{}{}],
     }
 }
 
