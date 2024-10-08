@@ -21,9 +21,9 @@ const ExcelReader = () => {
   const [excelData2, setExcelData2] = useState(null);
   const [fileName, setFileName] = useState("");
   const [fileName2, setFileName2] = useState("");
-  const [fromDate, setFromDate] = useState("2024-09-22");
-  const [toDate, setToDate] = useState("2024-10-06");
-  const [payroll, setPayroll] = useState("2024-10-06");
+  const [fromDate, setFromDate] = useState("");
+  const [toDate, setToDate] = useState("");
+  const [payroll, setPayroll] = useState("");
   const [isPopupOpen, setIsPopupOpen] = useState(false);
   const [grandparentChecked, setGrandparentChecked] = useState(true);
   const openPopup = () => {
