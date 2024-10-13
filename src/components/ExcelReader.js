@@ -85,22 +85,22 @@ const ExcelReader = () => {
     setPayroll(event.target.value);
   };
   function missedStudentRecords(combinedArray, fromDate) {
-    // // console.log("missedRecords output", combinedArray);
+    // // // console.log("missedRecords output", combinedArray);
     let fromDateObj = new Date(fromDate);
     let status = "(missed)";
     for (let i = 0; i < combinedArray.length; ++i) {
       let eachStudentRecord = combinedArray[i];
-      // // console.log("eachStudentRecord", eachStudentRecord);
+      // // // console.log("eachStudentRecord", eachStudentRecord);
       let sessionDateRecords = new Date(eachStudentRecord[3]);
-      // // console.log("sessionDateRecords", sessionDateRecords);
+      // // // console.log("sessionDateRecords", sessionDateRecords);
       if (sessionDateRecords < fromDateObj) {
-        // // console.log("sessionDateRecords", true);
+        // // // console.log("sessionDateRecords", true);
         eachStudentRecord["status"] = status;
       } else {
         eachStudentRecord["status"] = "";
       }
     }
-    console.log("missedRecords output", combinedArray);
+    // console.log("missedRecords output", combinedArray);
     return combinedArray;
   }
   const filteredExcelData = filterExcelData(
@@ -117,20 +117,20 @@ const ExcelReader = () => {
     payroll,
     "case2"
   );
-  // // console.log("data from filteredExcelData Excelreader", filteredExcelData);
-  // // console.log(
-  // // "data from payRollFilteredExcelData Excelreader",
-  // // payRollFilteredExcelData
-  // // );
+  // // // console.log("data from filteredExcelData Excelreader", filteredExcelData);
+  // // // console.log(
+  // // // "data from payRollFilteredExcelData Excelreader",
+  // // // payRollFilteredExcelData
+  // // // );
   const combinedArray = [...filteredExcelData, ...payRollFilteredExcelData];
   const missedRecordsArray = missedStudentRecords(combinedArray, fromDate);
-  // // console.log("data from missedRecordsArray Excelreader", missedRecordsArray);
+  // // // console.log("data from missedRecordsArray Excelreader", missedRecordsArray);
   const payRollFilteredData = [...new Set(missedRecordsArray)];
   const tutorJsonData = populateTutorJsonData(payRollFilteredData);
   const [copyTutorJsonData, setCopyTutorJsonData] = useState({});
   const isManuallyUpdated = useRef(false);
   useEffect(() => {
-    // // // console.log('tutorJsonData:', tutorJsonData);
+    // // // // console.log('tutorJsonData:', tutorJsonData);
     if (
       !isManuallyUpdated.current &&
       tutorJsonData &&
@@ -138,15 +138,15 @@ const ExcelReader = () => {
     ) {
       setCopyTutorJsonData({ ...tutorJsonData });
     }
-    // // console.log("copyTutorJsonData after useEffect", copyTutorJsonData);
+    // // // console.log("copyTutorJsonData after useEffect", copyTutorJsonData);
   }, [tutorJsonData]);
-  // // console.log("data from tutorJsonData Excelreader", tutorJsonData);
-  // // console.log("data from copyTutorJsonData Excelreader", copyTutorJsonData);
+  // // // console.log("data from tutorJsonData Excelreader", tutorJsonData);
+  // // // console.log("data from copyTutorJsonData Excelreader", copyTutorJsonData);
   const filteredBasedOnIsRequired =
     populateFilteredBasedOnIsRequired(copyTutorJsonData);
   const secondFilteredData = secondFilteredExcelData(excelData2);
   const transformedData = transformData(secondFilteredData);
-  // // // console.log("data from transformedData Excelreader", transformedData)
+  // // // // console.log("data from transformedData Excelreader", transformedData)
   const { filteredTutorJsonData, filteredTransformedData } = filterRecords(
     filteredBasedOnIsRequired,
     transformedData
@@ -172,12 +172,12 @@ const ExcelReader = () => {
       },
       {}
     );
-    console.log("updatedDataHandleGrandparentCheckbox", updatedData);
+    // console.log("updatedDataHandleGrandparentCheckbox", updatedData);
     setCopyTutorJsonData(updatedData);
   };
   const handleParentCheckbox = (tutorKey) => {
     const isChecked = !copyTutorJsonData[tutorKey].checked;
-    // console.log("isChecked_handleParentCheckbox", isChecked);
+    // // console.log("isChecked_handleParentCheckbox", isChecked);
     setCopyTutorJsonData((prevState) => ({
       ...prevState,
       [tutorKey]: {
@@ -210,10 +210,10 @@ const ExcelReader = () => {
       },
     }));
     isManuallyUpdated.current = true;
-    console.log("isChecked_handleChildCheckbox", allChecked);
+    // console.log("isChecked_handleChildCheckbox", allChecked);
   };
 
-  console.log("copyTutorJsonData_AfterCheck", copyTutorJsonData);
+  // console.log("copyTutorJsonData_AfterCheck", copyTutorJsonData);
   return (
     <div>
       <h2 class="heading">Smart Report</h2>
@@ -390,7 +390,7 @@ const ExcelReader = () => {
             const toNewDate = new Date(
               new Date(toDate).setDate(new Date(toDate).getDate() + 5)
             ).toLocaleDateString("en-GB");
-            // // console.log("toDate ", toNewDate);
+            // // // console.log("toDate ", toNewDate);
             var stringBuilder = "";
             stringBuilder += `SMARTPOINT E-PAY\n`;
             stringBuilder += `Class hour updates\n`;
@@ -417,7 +417,7 @@ const ExcelReader = () => {
             stringBuilder += `\nPayment due date: ${toNewDate}\n`;
             stringBuilder += `\nNote: Please confirm the payment by sharing a screenshot`;
             const resultToWhatsapp = stringBuilder;
-            // // console.log("resultToWhatsapp ", resultToWhatsapp);
+            // // // console.log("resultToWhatsapp ", resultToWhatsapp);
             return (
               <div>
                 <div tutorKey={index} className="tution-box">

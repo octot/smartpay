@@ -1,6 +1,7 @@
 import { React, useRef, useState, useEffect } from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Typography, Grid } from "@material-ui/core";
+import { URI } from "../Constants";
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -44,9 +45,7 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
     sendRequest();
   };
   const sendRequest = () => {
-    fetch('https://smartpay-1.onrender.com/send-whatsapp', { // Adjusted port to 4000
-    // fetch("http://localhost:4000/send-whatsapp", {
-      // Adjusted port to 4000
+    fetch(URI, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -57,11 +56,11 @@ const WhatsAppSender = ({ resultToWhatsapp }) => {
       .then((data) => {
         console.log("response from api data ", data);
         if (data.success) {
-          // alert("Success!!!");
           setStatus(data.message);
+          console.log("messageDeliveredSuccess!");
           setLastSentTime(Date.now()); // Update last sent time
         } else {
-          // alert("Error!!!");
+          console.log("messageDeliveredFailed!");
           setStatus(`Error sending message "${data.message}`);
         }
       })
